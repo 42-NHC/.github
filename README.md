@@ -287,6 +287,7 @@ Calculated from average module rank.
 | Title | Rank |
 |--------|------|
 | 42 Next Human Coder | 1 |
+| Cadete | 7 | 1 |
 | Pisciner | 3 |
 
 ---
@@ -295,16 +296,9 @@ Calculated from average module rank.
 
 XP is **not linear**.
 
-Instead of:
+Instead of: **XP = level * 100**
 
- **XP = level * 100
-
-
-We use a soft exponential curve:
-
-
-**XP_required = 100 * (level ^ 1.2)
-
+We use a soft exponential curve: **XP_required = 100 * (level ^ 1.2)**
 
 This ensures:
 
